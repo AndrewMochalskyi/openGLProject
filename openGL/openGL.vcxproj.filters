@@ -15,6 +15,12 @@
     <Filter Include="res\shader">
       <UniqueIdentifier>{d82dafc5-7c72-4b93-b0a5-e6c644ce325a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\vendor">
+      <UniqueIdentifier>{7750cc9d-1df9-4e6d-abb3-524ec86e9a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vendor\stb_image">
+      <UniqueIdentifier>{093d31f4-c4a1-43ab-a966-d548a2380ec7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="openGL.cpp">
@@ -33,6 +39,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\stb_image\stb_image.cpp">
+      <Filter>Source Files\vendor\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -58,6 +70,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\stb_image\stb_image.h">
+      <Filter>Source Files\vendor\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
